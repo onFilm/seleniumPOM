@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="3" guice-stage="DEVELOPMENT" name="Failed suite [Test Automation Suite]" parallel="classes">
+  <listeners>
+    <listener class-name="com.seleniumPOM.utilities.ExtentReporterNG"/>
+  </listeners>
+  <test name="Test Cases">
+    <classes>
+      <class name="com.seleniumPOM.testcases.LoginTest"/>
+      <class name="com.seleniumPOM.testcases.HomePageTest"/>
+    </classes>
+  </test> <!-- Test Cases -->
+</suite> <!-- Failed suite [Test Automation Suite] -->
