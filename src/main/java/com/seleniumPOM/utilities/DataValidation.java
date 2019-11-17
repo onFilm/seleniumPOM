@@ -23,10 +23,22 @@ public class DataValidation {
 		return true;
 	}
 	
+	public String intToString(int num){
+		return (String.format("%s", num));
+	}
+	
+	public char[] stringToChar(String str){
+		char charArray[] =str.toCharArray();
+		return charArray;
+	}
 	
 	@Test
 	public void test(){
 		System.out.println(isDigit("2"));
+		String num = intToString(123456);
+		System.out.println(num.charAt(5));
+		
+		System.out.println(stringToChar("john"));
 	}
 
 }

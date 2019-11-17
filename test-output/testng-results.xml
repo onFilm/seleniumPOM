@@ -1,61 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" total="4" passed="4">
+<testng-results skipped="0" failed="0" total="1" passed="1">
   <reporter-output>
   </reporter-output>
-  <suite name="Default suite" duration-ms="59685" started-at="2019-11-17T09:19:41Z" finished-at="2019-11-17T09:20:40Z">
+  <suite name="Default suite" duration-ms="91" started-at="2019-11-17T13:18:04Z" finished-at="2019-11-17T13:18:04Z">
     <groups>
     </groups>
-    <test name="Default test" duration-ms="59685" started-at="2019-11-17T09:19:41Z" finished-at="2019-11-17T09:20:40Z">
-      <class name="com.seleniumPOM.testcases.HomePageTest">
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.seleniumPOM.testcases.HomePageTest@1a23b66]" name="setUp" is-config="true" duration-ms="13262" started-at="2019-11-17T14:49:41Z" finished-at="2019-11-17T14:49:54Z">
+    <test name="Default test" duration-ms="91" started-at="2019-11-17T13:18:04Z" finished-at="2019-11-17T13:18:04Z">
+      <class name="com.seleniumPOM.utilities.DataValidation">
+        <test-method status="PASS" signature="test()[pri:0, instance:com.seleniumPOM.utilities.DataValidation@1c7db30]" name="test" duration-ms="41" started-at="2019-11-17T18:48:04Z" finished-at="2019-11-17T18:48:04Z">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="getLogin()[pri:1, instance:com.seleniumPOM.testcases.HomePageTest@1a23b66]" name="getLogin" duration-ms="1935" started-at="2019-11-17T14:49:54Z" finished-at="2019-11-17T14:49:56Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- getLogin -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.seleniumPOM.testcases.HomePageTest@1a23b66]" name="tearDown" is-config="true" duration-ms="1148" started-at="2019-11-17T14:49:56Z" finished-at="2019-11-17T14:49:57Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.seleniumPOM.testcases.HomePageTest@1a23b66]" name="setUp" is-config="true" duration-ms="10880" started-at="2019-11-17T14:49:57Z" finished-at="2019-11-17T14:50:08Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyFlashText()[pri:2, instance:com.seleniumPOM.testcases.HomePageTest@1a23b66]" name="verifyFlashText" duration-ms="1535" started-at="2019-11-17T14:50:08Z" finished-at="2019-11-17T14:50:09Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyFlashText -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.seleniumPOM.testcases.HomePageTest@1a23b66]" name="tearDown" is-config="true" duration-ms="1350" started-at="2019-11-17T14:50:09Z" finished-at="2019-11-17T14:50:11Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.seleniumPOM.testcases.HomePageTest@1a23b66]" name="setUp" is-config="true" duration-ms="10301" started-at="2019-11-17T14:50:11Z" finished-at="2019-11-17T14:50:21Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="verifyMessageText()[pri:3, instance:com.seleniumPOM.testcases.HomePageTest@1a23b66]" name="verifyMessageText" duration-ms="1338" started-at="2019-11-17T14:50:21Z" finished-at="2019-11-17T14:50:22Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- verifyMessageText -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.seleniumPOM.testcases.HomePageTest@1a23b66]" name="tearDown" is-config="true" duration-ms="916" started-at="2019-11-17T14:50:22Z" finished-at="2019-11-17T14:50:23Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method status="PASS" signature="setUp()[pri:0, instance:com.seleniumPOM.testcases.HomePageTest@1a23b66]" name="setUp" is-config="true" duration-ms="13517" started-at="2019-11-17T14:50:23Z" finished-at="2019-11-17T14:50:37Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- setUp -->
-        <test-method status="PASS" signature="logout()[pri:4, instance:com.seleniumPOM.testcases.HomePageTest@1a23b66]" name="logout" duration-ms="2205" started-at="2019-11-17T14:50:37Z" finished-at="2019-11-17T14:50:39Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- logout -->
-        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.seleniumPOM.testcases.HomePageTest@1a23b66]" name="tearDown" is-config="true" duration-ms="1254" started-at="2019-11-17T14:50:39Z" finished-at="2019-11-17T14:50:40Z">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-      </class> <!-- com.seleniumPOM.testcases.HomePageTest -->
+        </test-method> <!-- test -->
+      </class> <!-- com.seleniumPOM.utilities.DataValidation -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
