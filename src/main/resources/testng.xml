@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Test Automation Suite" thread-count="3" parallel="classes">
+
+	<listeners> 
+		<listener class-name="com.seleniumPOM.utilities.ExtentReporterNG"/>
+	</listeners> 
+
+	<test name="Test Cases">
+		<classes>
+			<class name="com.seleniumPOM.testcases.LoginTest"></class>
+			<class name="com.seleniumPOM.testcases.HomePageTest"></class>
+		</classes>
+	</test>
+</suite>

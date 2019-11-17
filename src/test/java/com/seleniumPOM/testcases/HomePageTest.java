@@ -18,6 +18,7 @@ public class HomePageTest extends BaseTest {
 	@Test(priority=2)
 	public void verifyFlashText(){
 		homePage = page.getInstance(LoginPage.class).doLogin(prop.getProperty("username"), prop.getProperty("password"));
+		System.out.println(page.getCurrentURL());
 		String flashText = homePage.getFlashText();
 		System.out.println(flashText);
 		Assert.assertNotEquals(flashText, "You logged into a secure area!");
@@ -27,6 +28,7 @@ public class HomePageTest extends BaseTest {
 	public void verifyMessageText(){
 		homePage = page.getInstance(LoginPage.class).doLogin(prop.getProperty("username"), prop.getProperty("password"));
 		String messageText = homePage.getMessageText();
+		System.out.println(page.getPageTitle());
 		Assert.assertEquals(messageText, "Secure Area");
 	}
 	

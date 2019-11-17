@@ -12,11 +12,6 @@ public class BasePage extends Page{
 	}
 
 	@Override
-	public String getPageTitle() {
-		return driver.getTitle();
-	}
-
-	@Override
 	public WebElement getElement(By locator) {
 		try {
 			return driver.findElement(locator);

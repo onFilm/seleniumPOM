@@ -36,7 +36,8 @@ public class BaseTest {
 	public void setUp(){
 		String browserName = prop.getProperty("browser");
 		String url= prop.getProperty("url");
-		driver= DriverFactory.get(browserName,url);
+		String eventFiringWebDriverFlag= prop.getProperty("EventFiringDriverFlag");
+		driver= DriverFactory.get(browserName,url,eventFiringWebDriverFlag);
 		page = new BasePage(driver);
 	}
 	

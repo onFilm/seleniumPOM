@@ -2,7 +2,6 @@ package com.seleniumPOM.testcases;
 
 import org.testng.annotations.Test;
 
-import com.seleniumPOM.pages.HomePage;
 import com.seleniumPOM.pages.LoginPage;
 
 public class LoginTest extends BaseTest {
