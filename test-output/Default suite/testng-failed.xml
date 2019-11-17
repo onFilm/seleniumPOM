@@ -6,15 +6,4 @@
       <class name="com.seleniumPOM.testcases.HomePageTest"/>
     </classes>
   </test> <!-- Default test -->
-  <test name="Default test(failed)">
-    <classes>
-      <class name="com.seleniumPOM.testcases.HomePageTest">
-        <methods>
-          <include name="tearDown"/>
-          <include name="setUp"/>
-          <include name="verifyFlashText"/>
-        </methods>
-      </class> <!-- com.seleniumPOM.testcases.HomePageTest -->
-    </classes>
-  </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
